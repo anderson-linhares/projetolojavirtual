@@ -305,7 +305,8 @@ h4{
     background: var(--cor-btn-fonte);
     color: var(--cor-fonte);
     padding: 60px 0 20px;
-    font-size: 14px;
+    font-size: 14px;    
+    
 }
 
 .rodape p{
@@ -364,6 +365,43 @@ ul{
     text-align: center;
 }
 
+/*-----LISTAGEM DE PRODUTOS-----*/
+
+.novomenu nav ul li a{
+    color: var(--cor-btn-fonte);
+}
+.novomenu {
+    box-shadow:0 2px 0 0 rgb(0, 0, 0, 0.1) ;
+}
+.linha2{
+    margin: 100px auto 50px;
+    justify-content: space-between;
+}
+.linha2 select{
+    padding:5px;
+    border: 1px solid var(--cor-padrao) ;
+}
+.linha2 select:focus{
+    outline: none;
+}
+.paginacao{
+    margin: auto;
+}
+.paginacao span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid var(--cor-padrao);
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.paginacao span:hover{
+    background: var(--cor-padrao);
+    color: var(--cor-fonte);
+}
 /*---MENU CELULAR---*/
 
 .menu-celular{
@@ -398,8 +436,12 @@ ul{
         display: block;
         cursor: pointer;
     }
-    
+    .novomenu nav ul li a{
+        color: var(--cor-fonte);
+    }
+        
 }  
+
 
 /*---CELULAR 600---*/
 
@@ -428,4 +470,8 @@ ul{
         height: 80px;
         margin: 0 10px;
     }
-}
+    .novomenu nav ul li a{
+        color: var(--cor-fonte);
+    }
+        
+}  
